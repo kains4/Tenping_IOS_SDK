@@ -1,6 +1,0 @@
-framework module TenpingSDK {
-  umbrella header "TenpingSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

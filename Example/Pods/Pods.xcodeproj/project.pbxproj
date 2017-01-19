@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3BB804221E307D6B00AA9F41 /* TenpingSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB804211E307D6B00AA9F41 /* TenpingSDKFramework.framework */; };
-		4FCCE8ADB439F8DA3FA4DB88925D01CC /* TenpingSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D048A11337F12CCE3FCE22D43E6AB224 /* TenpingSDK-dummy.m */; };
 		5B42E018949357A4FE764F4142A7D90C /* Pods-TenpingSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D942F6C549D1D0548C5DE9FE32C95355 /* Pods-TenpingSDK_Tests-dummy.m */; };
 		8E68AF19B9028B2ACDF899FBA8C9CC9F /* Pods-TenpingSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5816DBA5E62570E6E4A83678475D73D4 /* Pods-TenpingSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93B4A5492B9919299EB6F5DAF8DABEA7 /* TenpingSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C457CEE34578FAD7572DD00BFE163B2A /* TenpingSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AED6B98C022D7B8D43054FBC0E8A9830 /* Pods-TenpingSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B68268E430E63C4ECC95EA49E0A7FA /* Pods-TenpingSDK_Example-dummy.m */; };
 		B9759B5D899F60FBC7197D18A57706D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C7D53133BDED5433851F7552412891C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -30,11 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E3547C69A37C64B4D0DF316D551CB30 /* TenpingSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TenpingSDK-prefix.pch"; sourceTree = "<group>"; };
 		1E3BC2AF55C50FF3727D147E7A5B9911 /* Pods-TenpingSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenpingSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D545B81A891679AC45CB20C9DC140CC /* Pods-TenpingSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TenpingSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		32EB40F27394051945DFE25DA1A2DC7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BB804211E307D6B00AA9F41 /* TenpingSDKFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TenpingSDKFramework.framework; sourceTree = "<group>"; };
+		3BB804211E307D6B00AA9F41 /* TenpingSDKFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TenpingSDKFramework.framework; path = ../../TenpingSDK/TenpingSDKFramework.framework; sourceTree = "<group>"; };
 		4E7F11469739CAD7A6BA565A18120924 /* Pods-TenpingSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TenpingSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5816DBA5E62570E6E4A83678475D73D4 /* Pods-TenpingSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TenpingSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		584C3414FEF6B01515D6946CA568D517 /* Pods-TenpingSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenpingSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,18 +45,13 @@
 		97B68268E430E63C4ECC95EA49E0A7FA /* Pods-TenpingSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TenpingSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		A01D6095583C189E4F8EBBA85FEA8667 /* Pods-TenpingSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TenpingSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		A7C167A5D9C29DF38D26016ACF74775F /* Pods-TenpingSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TenpingSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD44ADD6ED09AC1A134DFE8383634CEC /* TenpingSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TenpingSDK.modulemap; sourceTree = "<group>"; };
 		B34ECB3909169EEE2853660067358F5B /* Pods-TenpingSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TenpingSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C07023FE7EAA6A547AF50DAA0E83F722 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C457CEE34578FAD7572DD00BFE163B2A /* TenpingSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TenpingSDK-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D048A11337F12CCE3FCE22D43E6AB224 /* TenpingSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TenpingSDK-dummy.m"; sourceTree = "<group>"; };
 		D18274194AA7C91112C162A80EC903EC /* Pods_TenpingSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenpingSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D693DC3344C7F5E5134D7E0F4DA8495D /* Pods-TenpingSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TenpingSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D942F6C549D1D0548C5DE9FE32C95355 /* Pods-TenpingSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TenpingSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		E4784EE9B02CCE963B4C45094CD07CDA /* TenpingSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenpingSDK.xcconfig; sourceTree = "<group>"; };
 		E7B0C6FFC2B75A27AD0B4892133415FA /* Pods-TenpingSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TenpingSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		EF73C0479FE4C1EF90EE1B05154155C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2EEE8787DF01D669F510E851A35D5D3 /* Pods-TenpingSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TenpingSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC1A17A769D6BE3C9AE5A0E16638A6C0 /* Pods-TenpingSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenpingSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,20 +113,6 @@
 			path = "Target Support Files/Pods-TenpingSDK_Tests";
 			sourceTree = "<group>";
 		};
-		66920C7E7B2598BE3A67D4644830101A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF73C0479FE4C1EF90EE1B05154155C7 /* Info.plist */,
-				AD44ADD6ED09AC1A134DFE8383634CEC /* TenpingSDK.modulemap */,
-				E4784EE9B02CCE963B4C45094CD07CDA /* TenpingSDK.xcconfig */,
-				D048A11337F12CCE3FCE22D43E6AB224 /* TenpingSDK-dummy.m */,
-				0E3547C69A37C64B4D0DF316D551CB30 /* TenpingSDK-prefix.pch */,
-				C457CEE34578FAD7572DD00BFE163B2A /* TenpingSDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TenpingSDK";
-			sourceTree = "<group>";
-		};
 		6D5DFE2EEFB0E8951445D9BF2D5C314A /* Pods-TenpingSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +162,6 @@
 		AB630BF8631EB57BE1E6FF3FE3B7BA06 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BEF38FF24DB5B7B9989BD19893D44E91 /* TenpingSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -192,27 +169,10 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BB804211E307D6B00AA9F41 /* TenpingSDKFramework.framework */,
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BEF38FF24DB5B7B9989BD19893D44E91 /* TenpingSDK */ = {
-			isa = PBXGroup;
-			children = (
-				66920C7E7B2598BE3A67D4644830101A /* Support Files */,
-				DC0B568BC590FD79CA743591835A50FC /* TenpingSDK */,
-			);
-			name = TenpingSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		DC0B568BC590FD79CA743591835A50FC /* TenpingSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3BB804211E307D6B00AA9F41 /* TenpingSDKFramework.framework */,
-			);
-			path = TenpingSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +190,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B4A5492B9919299EB6F5DAF8DABEA7 /* TenpingSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCCE8ADB439F8DA3FA4DB88925D01CC /* TenpingSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +322,6 @@
 /* Begin XCBuildConfiguration section */
 		1766EFC599341C113E54A89023884A39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4784EE9B02CCE963B4C45094CD07CDA /* TenpingSDK.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -619,7 +576,6 @@
 		};
 		E36C7CF892133B655A523F07680E79C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4784EE9B02CCE963B4C45094CD07CDA /* TenpingSDK.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
