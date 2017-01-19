@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TenpingSDK_Example' do
+  pod 'TenpingSDK', :path => '../'
+
+  target 'TenpingSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
