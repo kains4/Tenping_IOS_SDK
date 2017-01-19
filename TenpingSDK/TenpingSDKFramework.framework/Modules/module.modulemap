@@ -1,6 +1,0 @@
-framework module TenpingSDKFramework {
-  umbrella header "TenpingSDKFramework.h"
-
-  export *
-  module * { export * }
-}
