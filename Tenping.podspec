@@ -18,5 +18,5 @@ LICENSE
 s.platform = :ios, '8.0'
 s.author       = { "kains4" => "kains4@tenping.kr" }
 s.source       = { :git => "https://github.com/kains4/Tenping_IOS_SDK.git", :tag => "#{s.version}" }
-s.ios.vendored_frameworks = 'Tenping.framework'
+s.ios.vendored_frameworks = 'TenpingSDKFramework.framework'
 end
