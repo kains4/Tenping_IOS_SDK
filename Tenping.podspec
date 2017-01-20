@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "Tenping"
-s.version      = "1.1.1"
+s.version      = "1.1.2"
 s.summary      = "Tenping.framework"
 s.homepage     = "https://github.com/kains4/Tenping_IOS_SDK"
 

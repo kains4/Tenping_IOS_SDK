@@ -14,6 +14,7 @@
 #define CERTIFICATE_ERR @"Not Valid Certification Code!!!"
 
 
+
 @interface TenpingSDK : NSObject
 
 
@@ -24,7 +25,7 @@
 +(TenpingSDK *)shareInstance;
 -(void)becomeActive;
 -(void)initWithTenpingAppKey:(NSString *)appKey success:(void(^)())success failure:(void(^)(NSString* errString))failure;
--(void)showFullScreenAds;
--(void)showHalfScreenAds;
+-(void)showFullScreenAdsOnOpened:(void(^)())open OnClose:(void(^)())close;
+-(void)showHalfScreenAdsOnOpened:(void(^)())open OnClose:(void(^)())close;
 
 @end
