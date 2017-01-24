@@ -25,7 +25,7 @@
 +(TenpingSDK *)shareInstance;
 -(void)becomeActive;
 -(void)initWithTenpingAppKey:(NSString *)appKey success:(void(^)())success failure:(void(^)(NSString* errString))failure;
--(void)showFullScreenAdsOnOpened:(void(^)())open OnClose:(void(^)())close;
--(void)showHalfScreenAdsOnOpened:(void(^)())open OnClose:(void(^)())close;
+-(void)showFullScreenAdsController:(UIViewController*)controller OnOpened:(void(^)())open OnClose:(void(^)())close;
+-(void)showHalfScreenAdsController:(UIViewController*)controller OnOpened:(void(^)())open OnClose:(void(^)())close;
 
 @end
